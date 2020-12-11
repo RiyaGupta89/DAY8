@@ -1,0 +1,14 @@
+{
+  "name": "day8",
+  "version": "1.0.0",
+  "description": "Day8 of #100daysofcsscodechallenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riya Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
