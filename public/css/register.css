@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #293f50;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    margin: 40px 220px;
+    margin-bottom: 30;
+    /* border: 1px solid white; */
+    height: 90px;
+    color: #fff;
+    
+}
+
+.logo{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 50px;
+    width: 40%;
+    
+    line-height: 0.9;
+    float: left;
+}
+
+
+.logo:hover{
+    color: #648880;
+}
+
+.tagline{
+    color:#648880;
+    text-align: right;
+    padding: 20px;
+    font-size: 22px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    
+    
+}
+.nav{
+    text-align: right;
+   
+}
+
+nav ul li a:hover{
+    color: #648880;
+}
+
+nav ul li a{
+    /* text-decoration: none; */
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 20px 15px;
+    letter-spacing: 1;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.speakers{
+    height: 210px;
+    background: linear-gradient(to right, #9ae7c7, #f0f5c0);
+    
+}
+
+.speakers div{
+    margin: 0 220px;
+}
+
+.speakers div h2{
+    text-align: center;
+    color: #648880;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+    padding: 40px 40px 20px 40px;
+}
+
+.speakers div p{
+    font-size: 18px;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 34px;
+}
+
+.green{
+    color: #648880;
+}
+
+.info{
+    color: lightgrey;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    padding: 10px 0 10px 0;
+}
+.purchasingInfo h3, h4{
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+
+
+.infoAbout, ul{
+    color: grey;
+    padding: 10px 0 10px 0;
+    font-size: 15px;
+}
+
+ul{
+    padding-left: 30px;
+}
+
+
+.purchase{
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex{
+    margin: 0 220px;
+    padding: 60px 0;
+    display: flex;
+}
+
+.form{
+    margin-left: 20px;
+}
+
+.name, .passes, .comments, .email{
+    font-size: 15px;
+}
+
+input, textarea{
+    margin: 6px 0 8px 0;
+    border-radius: 5px;
+    padding: 6px;
+    width: 100%;
+}
+
+.btn{
+    padding: 13px 30px;
+    border-radius: 5px;
+    background-color: #648880;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin: 50px 220px;
+}
+
+small{
+    float: left;
+    color: #648880;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav{
+    text-align: right;
+}
+.footerLi{
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    padding: 20px 10px;
+}
